@@ -10,5 +10,3 @@ jobs:
   plan:
   - get: node_concourse_example_repo
     trigger: true
-  - task: build_node_concourse_example
-    file: node_concourse_example_repo/concourse/build.yml
