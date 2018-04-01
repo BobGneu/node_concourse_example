@@ -1,0 +1,12 @@
+{
+  "name": "node_concourse_example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BobGneu/node_concourse_example.git",
+  "author": "Bob Chatman <bob.chatman@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+  	"start" : "node ./src/hello_world.js 42"
+  }
+}

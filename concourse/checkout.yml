@@ -1,0 +1,14 @@
+resources:
+- name: node_concourse_example_repo
+  type: git
+  source: 
+    uri: https://github.com/BobGneu/node_concourse_example.git
+    branch: master
+
+jobs:
+- name: Build Node Concourse Example
+  plan:
+  - get: node_concourse_example_repo
+    trigger: true
+  - task: build_node_concourse_example
+    file: node_concourse_example_repo/concourse/build.yml
