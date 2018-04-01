@@ -7,6 +7,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-  	"start" : "node ./src/hello_world.js 42"
+    "start": "node ./src/hello_world.js 42"
+  },
+  "dependencies": {
+    "async": "^2.6.0"
   }
 }
